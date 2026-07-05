@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Pull latest code
+        run: git -C /home/hman/portifolio-site pull origin main
+
+      - name: Restart container
+        run: docker compose -f /home/hman/portifolio-site/docker-compose.yml up -d
