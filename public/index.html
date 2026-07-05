@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Nunes — Desenvolvedor Full-Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=20260705">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-logo">HMAN.dev</span>
+        <div class="nav-right">
+            <ul class="nav-links" id="navLinks"></ul>
+            <div class="lang-toggle">
+                <button id="btnPt" class="lang-btn active" onclick="setLang('pt')">PT</button>
+                <button id="btnEn" class="lang-btn" onclick="setLang('en')">EN</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-inner">
+        <div class="hero-kicker" data-i18n="heroKicker"></div>
+        <h1 data-i18n="heroName"></h1>
+        <p class="hero-tagline" data-i18n="heroTagline"></p>
+        <div class="hero-ctas">
+            <a href="#contato" class="btn-primary" data-i18n="heroCta"></a>
+            <a href="#homelab" class="btn-secondary" data-i18n="heroCtaSecondary"></a>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionAbout"></div>
+        </div>
+        <p class="about-body" data-i18n="aboutBody"></p>
+    </div>
+</section>
+
+<!-- EXPERIÊNCIA -->
+<section id="experiencia">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionExperience"></div>
+        </div>
+        <div id="expList"></div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionSkills"></div>
+        </div>
+        <div id="skillsList"></div>
+    </div>
+</section>
+
+<!-- FORMAÇÃO -->
+<section id="formacao">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionEducation"></div>
+        </div>
+        <div id="eduList"></div>
+    </div>
+</section>
+
+<!-- CERTIFICAÇÕES -->
+<section id="certs">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionCerts"></div>
+        </div>
+        <div class="certs-grid" id="certsList"></div>
+    </div>
+</section>
+
+<!-- HOMELAB -->
+<section id="homelab">
+    <div class="section-inner">
+        <div class="section-sidebar">
+            <div class="section-label" data-i18n="sectionHomelab"></div>
+            <p class="homelab-intro" data-i18n="homelabIntro"></p>
+        </div>
+        <div class="homelab-content" id="homelabContent"></div>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+    <div class="contact-inner">
+        <div class="contact-main">
+            <div class="section-label" data-i18n="sectionContact"></div>
+            <h2 data-i18n="contactHeadline"></h2>
+            <div class="contact-links" id="contactLinks"></div>
+        </div>
+        <p class="footer-note" data-i18n="footerNote"></p>
+    </div>
+</section>
+
+<script src="translations.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

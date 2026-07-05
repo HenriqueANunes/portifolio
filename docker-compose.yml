@@ -3,7 +3,7 @@ services:
     image: nginx:alpine
     container_name: nginx-site
     volumes:
-      - /home/hman/portifolio-site/html:/usr/share/nginx/html:ro
+      - /home/hman/portifolio-site/public:/usr/share/nginx/html:ro
       - /home/hman/portifolio-site/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     restart: unless-stopped
     networks:
