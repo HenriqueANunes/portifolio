@@ -597,6 +597,9 @@ a.cert-card:hover .cert-cta { color: var(--accent); }
 }
 
 .contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     border: 1px solid var(--border-hover);
     padding: 12px 22px;
     border-radius: 8px;

@@ -96,10 +96,10 @@ const TRANSLATIONS = {
       { name: "Vaultwarden",     desc: "Gerenciador de senhas" },
     ],
     contactLinks: [
-      { label: "henrique.a.nunes@outlook.com",   href: "mailto:henrique.a.nunes@outlook.com" },
-      { label: "+55 (41) 99724-4263",            href: "https://api.whatsapp.com/send?phone=5541997244263&text=Ol%C3%A1%20Henrique%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!" },
-      { label: "github.com/HenriqueANunes",      href: "https://github.com/HenriqueANunes" },
-      { label: "linkedin.com/in/HenriqueANunes", href: "https://linkedin.com/in/HenriqueANunes" },
+      { label: "henrique.a.nunes@outlook.com",   href: "mailto:henrique.a.nunes@outlook.com",                                                                                                      icon: "email" },
+      { label: "+55 (41) 99724-4263",            href: "https://api.whatsapp.com/send?phone=5541997244263&text=Ol%C3%A1%20Henrique%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!", icon: "whatsapp" },
+      { label: "github.com/HenriqueANunes",      href: "https://github.com/HenriqueANunes",                                                                                                        icon: "github" },
+      { label: "linkedin.com/in/HenriqueANunes", href: "https://linkedin.com/in/HenriqueANunes",                                                                                                   icon: "linkedin" },
     ],
   },
 
@@ -200,10 +200,10 @@ const TRANSLATIONS = {
       { name: "Vaultwarden",    desc: "Password manager" },
     ],
     contactLinks: [
-      { label: "henrique.a.nunes@outlook.com",   href: "mailto:henrique.a.nunes@outlook.com" },
-      { label: "+55 (41) 99724-4263",            href: "https://api.whatsapp.com/send?phone=5541997244263&text=Hello%20Henrique%2C%20I%20saw%20your%20portfolio!" },
-      { label: "github.com/HenriqueANunes",      href: "https://github.com/HenriqueANunes" },
-      { label: "linkedin.com/in/HenriqueANunes", href: "https://linkedin.com/in/HenriqueANunes" },
+      { label: "henrique.a.nunes@outlook.com",   href: "mailto:henrique.a.nunes@outlook.com",                                                                      icon: "email" },
+      { label: "+55 (41) 99724-4263",            href: "https://api.whatsapp.com/send?phone=5541997244263&text=Hello%20Henrique%2C%20I%20saw%20your%20portfolio!", icon: "whatsapp" },
+      { label: "github.com/HenriqueANunes",      href: "https://github.com/HenriqueANunes",                                                                        icon: "github" },
+      { label: "linkedin.com/in/HenriqueANunes", href: "https://linkedin.com/in/HenriqueANunes",                                                                   icon: "linkedin" },
     ],
   },
 };
